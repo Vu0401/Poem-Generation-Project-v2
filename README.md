@@ -1,12 +1,12 @@
 # Poem-Generation-Project-v2
-A text generation initiative employing web data crawling and GPT-2 transformer architecture to compose Vietnamese poetry.
+- A text generation initiative employing web data crawling and GPT-2 transformer architecture to compose Vietnamese poetry.
 
 # Dataset
-Taking Haiku poetry data from first 10 pages at https://www.thivien.net/searchpoem.php?PoemType=16&ViewType=1&Country=2 
+- Taking Haiku poetry data from first 10 pages at https://www.thivien.net/searchpoem.php?PoemType=16&ViewType=1&Country=2 
 
 # Progamming languages and Technologies
-Languages: Python
-Technologies: pandas, datasets, pytorch, transformers, huggingface_hub
+- Languages: Python 
+- Technologies: pandas, datasets, pytorch, transformers, huggingface_hub
 
 # Inference
 ```python
