@@ -10,23 +10,7 @@
 
 # Inference
 ```python
-prompt = 'Học học nữa học mãi\n'
-device = 'cuda' if torch.cuda.is_available() else 'cpu'
-inputs = tokenizer(prompt, return_tensors="pt").input_ids.to(device)
-outputs = model.generate(
-    inputs,
-    max_new_tokens=50,
-    do_sample=True,
-    top_k=50,
-    top_p=0.95,
-    temperature=0.8,
-    repetition_penalty=1.2
-)
-results = tokenizer.batch_decode(outputs, skip_special_tokens=True)
-results = results[0]
-print()
-for line in results.split('\n'):
-    print(line)
+prompt = 'Học học nữa học mãi'
 ```
 
 ```
